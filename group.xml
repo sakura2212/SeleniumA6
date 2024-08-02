@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="smoke"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="testng1.Bike2"/>
+      <class name="testng1.Bike1"/>
+      <class name="testng1.Bike5"/>
+      <class name="testng1.Bike4"/>
+      <class name="testng1.Bike3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
